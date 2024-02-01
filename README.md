@@ -10,6 +10,10 @@ npm install
 ### Start API
 
 ```
+Create a .env file with the Mongo db connection URL and the API URL  you want with the following names
+CONNECTION_STRING=< MongoDB Connection URL >
+API_URL = < URL wanted >
+Then run the following command:
 npm start
 ```
 
