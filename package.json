@@ -1,0 +1,24 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "backend of eshop",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongoose": "^8.1.1",
+    "supertest": "^6.3.4"
+  }
+}
